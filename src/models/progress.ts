@@ -4,4 +4,4 @@ export interface IProgressEventData {
   type: 'download' | 'upload';
 }
 
-export type IProgressEvent = (data: IProgressEventData) => void;
+export type IProgressEvent = (info: IProgressEventData) => void;
